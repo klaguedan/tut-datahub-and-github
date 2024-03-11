@@ -30,11 +30,18 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
     <img src="img/terminal.png" />
 </div>
 
-- Type `ssh-keygen` and press Enter. This will create a key that'll let you link up with Github and let you push your notebook changes super super fast without having to type in your username and password every time.
-- Press Enter 3 times until you see a "randomart" image.
-- Type `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. You will want to copy ALL of this by right-clicking with your mouse/trackpad and copying (keybinds don't work consistently in the terminal).
+<br>
 
-Starts from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called.
+- Type `ssh-keygen` and press Enter.
+- Press Enter 3 times until you see a "randomart" image.
+
+<div align="center" width="100px">
+    <img src="img/randomart.png" />
+</div>
+
+<br>
+
+- Type `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. You will want to copy ALL of this by right-clicking with your mouse/trackpad (keybinds don't work consistently in the terminal). Starts from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called.
 
 **DO NOT INCLUDE** the bottom-most line with the dollar sign. This is the *terminal prompt* and shows up when the terminal is ready for another command; it's not part of the ssh key itself.
 
