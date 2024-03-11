@@ -114,7 +114,7 @@ Now you should see a folder named `PROJECT`! Keep clicking through the folders `
 
 ### Datahub Terminal
 
-- Run  `git add github-datahub-test.ipynb`. This will tell the terminal specifically what files you want to upload the changes for.
+- Run  `git add github-datahub-test.ipynb`. This will tell the terminal that you want to upload the changes specifically in the `github-datahub-test` notebook.
 - Run `git commit -m "<enter your own note here>"` Records the changes you made and the message/note you wrote describing your change.
 - Run `git push`. Uploads your changes to the actual Github repo for everyone to see (as long as they have the most updated version of the repository).
 
