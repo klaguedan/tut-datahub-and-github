@@ -14,7 +14,7 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 
 # 1️⃣ Creating your private key
 
-## Github Settings
+### Github Settings
 
 - Go to **SSH and GPG keys** in the sidebar. 
 - Click on **New SSH key**. 
@@ -22,11 +22,11 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 
 <br>
 
-## Datahub
+### Datahub
 
 - Click **New** > **Terminal**.
 
-<div align="center" width="100px">
+<div align="center" width="40px">
     <img src="img/terminal.png" />
 </div>
 
@@ -35,7 +35,7 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 - Type `ssh-keygen` and press Enter.
 - Press Enter 3 times until you see a "randomart" image.
 
-<div align="center" width="100px">
+<div align="center" width="40px">
     <img src="img/randomart.png" />
 </div>
 
@@ -45,8 +45,9 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 
 **DO NOT INCLUDE** the bottom-most line with the dollar sign. This is the *terminal prompt* and shows up when the terminal is ready for another command; it's not part of the ssh key itself.
 
+<br>
 
-## Github Settings
+### Github Settings
 
 - **Paste the key** into the **Key** box.
 - Click **Add SSH key**.
@@ -64,12 +65,13 @@ Here you'll make changes to a test file in our Group Repository to make sure eve
 
 ## Clone our Project repository
 
-**In terminal:**
-- Run `mkdir PROJECT`. Sets up a folder for our project where we can download the Jupyter notebooks from Github.
+### Datahub Terminal
+
+- Run `mkdir PROJECT`. Makes folder for our project where we can download the Jupyter notebooks from Github.
 - Run `cd PROJECT`. Moves the terminal to our newly made folder.
 - Run `git clone git@github.com:COGS108/Group087_WI24.git`. Type `yes` and press Enter. This will make a local copy of our group project files in your Datahub.
 - Run `cd Group087_WI24`. Moves the terminal to the folder with all the work in it.
-- Run `git config user.email "<your email>"`.
+- Run `git config user.email "<your email>"`. (Replace the angle brackets too!)
 - Run `git config user.name "<some name to identify you>"`. 
 
 **NOTE:** The last two commands help Github identify you and track who made what changes. It will let us make commits and upload them. Without the last two steps, Github won't let us do any of that.
@@ -80,20 +82,33 @@ Here you'll make changes to a test file in our Group Repository to make sure eve
 
 Now in another tab, go back to the normal Datahub Files homepage. 
 
+### Datahub Files
+
 Now you should see a folder named `PROJECT`! Keep clicking through the folders `Group087_WI24` until you see all the project files in the folder. Open the `github-datahub-test.ipynb` notebook.
 
 - In a markdown cell, add some text or add your name. Hit save.
 
-### Here's how to upload the changes you make:
+<div align="center" width="50px">
+    <img src="img/notebook-editing.png" />
+</div>
 
-**<ins>In the terminal:</ins>**
+
+<br>
+
+## Here's how to upload the changes you make:
+
+### Datahub Terminal
+
 - Run  `git add github-datahub-test.ipynb`. This will tell the terminal specifically what files you want to upload the changes for.
 - Run `git commit -m "<enter your own note here>"` Records the changes you made and the message/note you wrote describing your change.
 - Run `git push`. Uploads your changes to the actual Github repo for everyone to see (as long as they have the most updated version of the repository).
 
-### See your edits!
+<br>
 
-**<ins>Github Group087_WI24 Repository:</ins>**
+## See your edits!
+
+### Github Group087_WI24 Repository
+
 Now, in our repository page, you should see that `github-datahub-test.ipynb` was recently updated by you and shows your commit message. You can preview the file on Github to verify that the changes you made are there.
 
 <br>
