@@ -134,7 +134,7 @@ Every time you want to work on the project, you'll need a **terminal** and the *
 
 <br>
 
-### Use `git` to push your changes.
+### Use the terminal to push your changes.
 - Run `git add FinalProject_Group087_WI24.ipynb`
 - Run `git commit -m "<your message here>"`
 - Run `git push`
