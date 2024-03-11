@@ -8,26 +8,34 @@ Before we start please have these pages open and logged in to your accounts:
 
 <br>
 
-A tip while using the terminal: It can typically autocomplete words for you if you press <TAB> (as long as you have enough leading letters). Also everything is case sensitive!
+A tip while using the terminal: It can typically **autocomplete** words for you if you press \<TAB\> (as long as you have enough leading letters). Also everything is case sensitive!
 
 ---
 
 # 1️⃣ Creating your private key
 
-**<ins>Github Settings:</ins>**
+## Github Settings
+
 - Go to **SSH and GPG keys** in the sidebar. 
 - Click on **New SSH key**. 
 - Name the "Title" anything you want that will remind you that this key is for Datahub/UCSD.
 
-**In <ins>Datahub:</ins>**
+<br>
+
+## Datahub
+
 - Click "New" > "Terminal". 
 - Type `ssh-keygen` and press Enter. This will create a key that'll let you link up with Github and let you push your notebook changes super super fast without having to type in your username and password every time.
 - Press Enter 3 times until you see a "randomart" image.
 - Type `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. You will want to copy ALL of this by right-clicking with your mouse/trackpad and copying (keybinds don't work consistently in the terminal).
 
-Starting from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called. **DO NOT INCLUDE** the bottom-most line with the dollar sign. This is the *terminal prompt* and shows up when the terminal is ready for another command; it's not part of the ssh key itself.
+Starts from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called.
 
-**<ins>Github Settings > SSH and GPG keys:</ins>**
+**DO NOT INCLUDE** the bottom-most line with the dollar sign. This is the *terminal prompt* and shows up when the terminal is ready for another command; it's not part of the ssh key itself.
+
+
+## Github Settings
+
 - **Paste the key** into the **Key** box.
 - Click **Add SSH key**.
 
@@ -97,7 +105,7 @@ Every time you want to work on the project, you'll need a **terminal** and the *
 
 ### Use `git` to push your changes.
 - Run `git add FinalProject_Group087_WI24.ipynb`
-- Run `git commit -m "<your message here>"
+- Run `git commit -m "<your message here>"`
 - Run `git push`
 
 
