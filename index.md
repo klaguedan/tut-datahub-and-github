@@ -54,7 +54,7 @@ You will see your own terminal prompt with your user info.
 **DO NOT INCLUDE** the bottom-most line with the dollar sign. This is the *terminal prompt* and shows up when the terminal is ready for another command; it's not part of the ssh key itself.
 
 <div align="center">
-    <img src="img/rsa.png"  width="600px"/>
+    <img src="img/rsa.png"  width="800px"/>
 </div>
 
 <br>
