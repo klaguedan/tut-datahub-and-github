@@ -63,7 +63,7 @@ You will see your own terminal prompt with your user info.
 
 - **Paste the key** into the **Key** box.
 - Click **Add SSH key**.
-- You may have to login to Github etc.
+- You may have to confirm your Github credentials etc.
 
 <br>
 <br>
