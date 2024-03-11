@@ -8,7 +8,7 @@ Before we start please have these pages open and logged in to your accounts:
 
 ---
 
-# 1️⃣ Set up remote Github-Datahub access without having to log in repeatedly
+# 1️⃣ Creating your private key
 
 **<ins>Github Settings:</ins>**
 - Go to **SSH and GPG keys** in the sidebar. 
@@ -32,4 +32,30 @@ Starting from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kagueda
 
 # 2️⃣ Finalizing link and testing out edit/upload
 
+Here you'll make changes to a test file in our Group Repository to make sure everything is working smoothly. I'll also let you know essential commands.
+
+<br>
+
+## Clone our Project repository
+
+**In terminal:**
+- Run `mkdir PROJECT`. Sets up a folder for our project where we can download the Jupyter notebooks from Github.
+- Run `cd PROJECT`. Moves the terminal to our newly made folder.
+- Run `git clone git@github.com:COGS108/Group087_WI24.git`. Type `yes` and press Enter. This will make a local copy of our group project files in your Datahub.
+- Run `cd Group087_WI24`. Moves the terminal to the folder with all the work in it.
+
+<br>
+
+## Make some edits and push your changes in a test notebook
+
+Now in another tab, go back to the normal Datahub Files homepage. Now you should see a folder named `PROJECT`! Keep clicking through the folders `Group087_WI24` until you see all the project files in the folder. Open the `github-datahub-test.ipynb` notebook.
+
+- In a markdown cell, make some changes or add your name. Hit save.
+
+### Here's how to upload the changes you make:
+
+**In the terminal:**
+- Run  `git add github-datahub-test.ipynb`. This will tell the terminal specifically what files you want to upload the changes for.
+- Run `git commit -m "<enter your own note here>"` Records the changes you made and the message/note you wrote describing your change.
+- Run `git push`. Uploads your changes to the actual Github repo for everyone to see (as long as they have the most updated version of the repository).
 
