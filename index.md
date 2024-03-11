@@ -24,7 +24,12 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 
 ## Datahub
 
-- Click "New" > "Terminal". 
+- Click **New** > **Terminal**.
+
+<div align="center" width="400px">
+    <img src="img/terminal.png" />
+</div>
+
 - Type `ssh-keygen` and press Enter. This will create a key that'll let you link up with Github and let you push your notebook changes super super fast without having to type in your username and password every time.
 - Press Enter 3 times until you see a "randomart" image.
 - Type `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. You will want to copy ALL of this by right-clicking with your mouse/trackpad and copying (keybinds don't work consistently in the terminal).
