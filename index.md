@@ -26,8 +26,12 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 
 - Click **New** > **Terminal**.
 
-<div align="center" width="40px">
-    <img src="img/terminal.png" />
+<div align="center">
+    <img src="img/open-terminal.png"  width="100px"/>
+</div>
+
+<div align="center">
+    <img src="img/terminal.png"  width="100px"/>
 </div>
 
 <br>
@@ -35,13 +39,13 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 - Type `ssh-keygen` and press Enter.
 - Press Enter 3 times until you see a "randomart" image.
 
-<div align="center" width="40px">
-    <img src="img/randomart.png" />
+<div align="center">
+    <img src="img/randomart.png"  width="50px"/>
 </div>
 
 <br>
 
-- Type `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. You will want to copy ALL of this by right-clicking with your mouse/trackpad (keybinds don't work consistently in the terminal). Starts from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called.
+- Run `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. You will want to copy ALL of this using your mouse/trackpad (keybinds don't work consistently in the terminal). It should start from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called.
 
 **DO NOT INCLUDE** the bottom-most line with the dollar sign. This is the *terminal prompt* and shows up when the terminal is ready for another command; it's not part of the ssh key itself.
 
@@ -88,8 +92,8 @@ Now you should see a folder named `PROJECT`! Keep clicking through the folders `
 
 - In a markdown cell, add some text or add your name. Hit save.
 
-<div align="center" width="50px">
-    <img src="img/notebook-editing.png" />
+<div align="center">
+    <img src="img/notebook-editing.png"  width="50px"/>
 </div>
 
 
