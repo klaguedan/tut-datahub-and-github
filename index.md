@@ -26,7 +26,7 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 
 - Click **New** > **Terminal**.
 
-<div align="center" width="400px">
+<div align="center" width="100px">
     <img src="img/terminal.png" />
 </div>
 
