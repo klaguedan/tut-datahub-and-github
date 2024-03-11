@@ -49,7 +49,7 @@ You will see your own terminal prompt with your user info.
 
 <br>
 
-- Run `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. You will want to copy ALL of this using your mouse/trackpad (keybinds don't work consistently in the terminal). It should start from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called.
+- Run `cat .ssh/id_rsa.pub`. This prints out the contents of `id_rsa.pub` to the terminal. And it **should look like a bunch of random letters and numbers etc**. You will want to copy ALL of this using your mouse/trackpad (keybinds don't work consistently in the terminal). It should start from "ssh-rsa" and including the last "= kaguedan@dsmlp-jupyter-kaguedan" or whatever your particular user is called.
 
 **DO NOT INCLUDE** the bottom-most line with the dollar sign. This is the *terminal prompt* and shows up when the terminal is ready for another command; it's not part of the ssh key itself.
 
@@ -59,6 +59,7 @@ You will see your own terminal prompt with your user info.
 
 - **Paste the key** into the **Key** box.
 - Click **Add SSH key**.
+- You may have to login to Github etc.
 
 <br>
 <br>
@@ -132,11 +133,11 @@ Now, in our repository page, you should see that `github-datahub-test.ipynb` was
 
 # 3️⃣ General Workflow for the Project
 
-Every time you want to work on the project, you'll need a **terminal** and the **FinalProject_Group087_WI24.ipynb** notebook open on **Datahub**.
+Every time you want make changes to the group notebook, you'll need a **terminal** and the **FinalProject_Group087_WI24.ipynb** notebook open on **Datahub**.
 
-### In the terminal before making any edits:
+### In the terminal BEFORE making any edits:
 - Run `cd PROJECT/Group087_WI24/` to move to your local copy of group repository in Datahub.
-- **SUPER IMPORTANT!** Run `git pull` to fetch the latest changes made by anyone else in the group.
+- **SUPER IMPORTANT!** Run `git pull` to **fetch the latest changes** made by anyone else in the group.
 
 <br>
 
@@ -150,7 +151,7 @@ Every time you want to work on the project, you'll need a **terminal** and the *
 - Run `git push`
 
 
-After confirming everything is uploaded, feel free to exit out of everything.
+After confirming everything is correctly uploaded, feel free to exit out of everything.
 
 <br>
 <br>
