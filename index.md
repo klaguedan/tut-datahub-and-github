@@ -27,11 +27,11 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 - Click **New** > **Terminal**.
 
 <div align="center">
-    <img src="img/open-terminal.png"  width="100px"/>
+    <img src="img/open-terminal.png"  width="700px"/>
 </div>
 
 <div align="center">
-    <img src="img/terminal.png"  width="100px"/>
+    <img src="img/terminal.png"  width="400px"/>
 </div>
 
 <br>
@@ -40,7 +40,7 @@ A tip while using the terminal: It can typically **autocomplete** words for you 
 - Press Enter 3 times until you see a "randomart" image.
 
 <div align="center">
-    <img src="img/randomart.png"  width="50px"/>
+    <img src="img/randomart.png"  width="300px"/>
 </div>
 
 <br>
@@ -93,7 +93,7 @@ Now you should see a folder named `PROJECT`! Keep clicking through the folders `
 - In a markdown cell, add some text or add your name. Hit save.
 
 <div align="center">
-    <img src="img/notebook-editing.png"  width="50px"/>
+    <img src="img/notebook-editing.png"  width="300px"/>
 </div>
 
 
