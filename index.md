@@ -100,6 +100,9 @@ Every time you want to work on the project, you'll need a **terminal** and the *
 - Run `git commit -m "<your message here>"
 - Run `git push`
 
+
+After confirming everything is uploaded, feel free to exit out of everything.
+
 <br>
 <br>
 
