@@ -82,7 +82,8 @@ Here you'll make changes to a test file in our Group Repository to make sure eve
 
 - Run `mkdir PROJECT`. Makes folder for our project where we can download the Jupyter notebooks from Github.
 - Run `cd PROJECT`. Moves the terminal to our newly made folder.
-- Run `git clone git@github.com:COGS108/Group087_WI24.git`. Type `yes` and press Enter. This will make a local copy of our group project files in your Datahub.
+- Run `git clone git@github.com:COGS108/Group087_WI24.git`. Type `yes` and press Enter.
+- Run `git clone git@github.com:COGS108/Group087_WI24.git` again. This will make a local copy of our group project files in your Datahub.
 - Run `cd Group087_WI24`. Moves the terminal to the folder with all the work in it.
 - Run `git config user.email "<your email>"`. (Replace the angle brackets too!)
 - Run `git config user.name "<some name to identify you>"`. 
